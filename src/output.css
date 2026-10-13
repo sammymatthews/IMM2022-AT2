@@ -527,6 +527,12 @@
   .bg-\[url\(\'https\:\/\/github\.com\/sammymatthews\/IMM2022-AT2\/blob\/9db5b92e69c4711d051dd54f2b307c8dc6bf5b41\/images\/fabio-fistarol-C3R9sJLrcY4-unsplash\.jpg\'\)\] {
     background-image: url('https://github.com/sammymatthews/IMM2022-AT2/blob/9db5b92e69c4711d051dd54f2b307c8dc6bf5b41/images/fabio-fistarol-C3R9sJLrcY4-unsplash.jpg');
   }
+  .bg-\[url\(\.\.\/images\/fabio-fistarol-C3R9sJLrcY4-unsplash\.jpg\)\] {
+    background-image: url(../images/fabio-fistarol-C3R9sJLrcY4-unsplash.jpg);
+  }
+  .bg-\[url\(\.\.\/images\/spreading_melanoma\.png\)\] {
+    background-image: url(../images/spreading_melanoma.png);
+  }
   .bg-\[url\(\.\/images\/fabio-fistarol-C3R9sJLrcY4-unsplash\.jpg\)\] {
     background-image: url(./images/fabio-fistarol-C3R9sJLrcY4-unsplash.jpg);
   }
