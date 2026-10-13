@@ -8,7 +8,7 @@
     <title>Document</title>
 </head>
 
-<body class="bg-oat-50 text-ocean-700 snap-y text-xl">
+<body class="bg-oat-50 text-ocean-700 snap-y text-xl scroll-smooth">
     <div
         class="w-full h-screen bg-[url(/images/fabio-fistarol-C3R9sJLrcY4-unsplash.jpg)] bg-cover bg-bottom text-ocean-800">
         <h1 class="text-7xl font-sans font-extrabold pt-32 text-center">
@@ -26,18 +26,18 @@
 
     <div class="px-32 mt-12 grid grid-cols-3 gap-10 text-sand-700 text-xl text-center">
         <!-- stat 1 -->
-        <div class="bg-sand-50 rounded-xl overflow-hidden">
+        <div class="bg-sand-50 border border-sand-100 rounded-xl overflow-hidden">
             <img src="./images/sunscreen application.jpg" alt="somone applying sunscreen to their leg">
             <p class="p-6">
                 Only 38.1% of Australians used SPF30+ when it was recommended
             </p>
         </div>
-        <div class="bg-sand-50 rounded-xl overflow-hidden">
+        <div class="bg-sand-50 border border-sand-100 rounded-xl overflow-hidden">
             <img src="./images/sunburn.jpg" alt="somone with a sunburn on their back">
             <p class="p-6"> 1 in 14 Australians experienced sunburn in a single week during summer</p>
         </div>
 
-        <div class="bg-sand-50 rounded-xl overflow-hidden">
+        <div class="bg-sand-50 border border-sand-100 rounded-xl overflow-hidden">
             <img src="./images/tanning.avif" alt="a man and woman on the beach suntanning">
             <p class="p-6"> 1 in 4 young women aged 15 to 24 tried suntanning in the last 12 months </p>
         </div>
@@ -65,7 +65,7 @@
                 decrease sun protection and increase sun exposure. All the while, overexposure to UV is responsible
                 for up to 95% of melanomas, the deadliest form of skin cancer. <strong>Damage to your skin can happen
                     well before you develop a sunburn or tan, and it can’t be reversed.</strong> </p>
-            <img src="./images/tanning culture.avif"
+            <img class="rounded-lg" src="./images/tanning culture.avif"
                 alt="https://images.theconversation.com/files/715074/original/file-20260129-56-pt0d5m.jpg?ixlib=rb-4.1.1&q=45&auto=format&w=1000&fit=clip">
         </div>
     </div>
@@ -89,7 +89,7 @@
             sun, but at a cost.
         </p>
 
-        <div class="my-10 rounded-2xl bg-ocean-50 grid grid-cols-2 gap-16">
+        <div class="my-10 rounded-2xl bg-ocean-50 border border-ocean-100 grid grid-cols-2 gap-16">
             <img class="rounded-xl m-2" src="./images/melanocytes.png"
                 alt="melanocytes and melanin production in different skin tones">
             <div class="text-bone-600 my-12 mr-12">
@@ -105,7 +105,7 @@
             </div>
         </div>
 
-        <div class="mt-10 rounded-2xl bg-ocean-50 grid grid-cols-2 gap-16 overflow-clip">
+        <div class="mt-10 rounded-2xl bg-ocean-50 border border-ocean-100 grid grid-cols-2 gap-16 overflow-clip">
             <div class="text-bone-600 my-12 ml-12">
                 <h3 class="font-bold text-3xl mb-4">How Does a Tan Develop?</h3>
                 <p> Melanin plays a crucial role in protecting the cells in our
@@ -145,7 +145,7 @@
                     develop various mutations which alter cell function. Normally, cells know when it is time to stop
                     growing and eventually die. However, these mutations can lead to melanocytes growing uncontrollably.
                 </p>
-                <div class="w-full rounded-xl bg-bone-50 shadow p-2 my-6">
+                <div class="w-full rounded-xl bg-white border border-gray-200 p-2 my-6">
                     <img class="rounded self-end" src="./images/melanoma development.png" alt="">
                 </div>
                 <!-- <img class="rounded-xl my-6 shadow" src="./images/melanoma development.png" alt=""> -->
@@ -177,7 +177,7 @@
                     checking to make sure that no threats are present in our body. This allows the immune system to
                     combat mutated cells in the following ways:
                 </p>
-                <div class="w-full rounded-xl bg-bone-50 shadow p-4 my-6 text-bone-600">
+                <div class="w-full rounded-xl bg-gray-50 border border-gray-200 p-4 my-6 text-bone-600">
                     <h3 class="font-bold"> Identifying Mutated Cells </h3>
                     <p class="grow-0">All cells in the body display markers known as antigens on their cell surface
                         through
@@ -190,16 +190,16 @@
                 </div>
 
                 <div class="grid grid-cols-2 gap-6 my-6">
-                    <div class="w-full rounded-xl bg-bone-50 shadow p-2">
+                    <div class="w-full rounded-xl bg-white border border-gray-200 p-2">
                         <img class="rounded self-end" src="./images/MHC on cell.png" alt="">
                     </div>
-                    <div class="w-full rounded-xl bg-bone-50 shadow p-2">
+                    <div class="w-full rounded-xl bg-white border border-gray-200 p-2">
                         <img class="rounded self-end" src="./images/killing cancer cell.png" alt="">
                     </div>
                 </div>
 
 
-                <div class="w-full rounded-xl bg-bone-50 shadow p-4 my-6 text-bone-600">
+                <div class="w-full rounded-xl bg-gray-50 border border-gray-200 p-4 my-6 text-bone-600">
                     <h3 class="font-bold"> Killing Mutated Cells </h3>
                     <p class="grow-0"> Antigens that are found in the body or taken up when a cell is killed are
                         constantly being displayed by specialised cells, known as Antigen Presenting Cells (APCs).
@@ -218,11 +218,12 @@
         </div>
     </div>
 
-    <div class="h-screen m-32 text-bone-600">
+    <div class="m-32 text-bone-600">
         <h2 class="text-5xl text-ocean-700 font-sans font-bold text-right"> Unfortunately, tumours can evade immune
             surveillance.</h2>
 
-        <p class="mt-6 text-2xl text-right text-ocean-700"> Whilst the immune system has many tools to destroy tumours
+        <p class="mt-6 text-2xl text-right text-ocean-700"> Whilst the immune system has many tools to destroy
+            tumours
             cells, tumours
             also have
             their own strategies of evading destruction. When tumours are successful in evading the immune system, this
@@ -270,15 +271,139 @@
                 </p>
             </div>
         </div>
-        <p class="text-ocean-700">
-            Whilst the immune system has a different immune cell, the Natural Killer cell, which can recognise and
-            destroy cells lacking MHC on their surface, this is the only strategy they can counterract. This is largely
-            because tumours make themselves invisible to immune cells with (2) and exploit the natural regulation of
-            immune cells with (3). Ultimately, this lets tumours evade destruction and continue growing uncontrollably.
+        <p class="text-ocean-700 columns-2 gap-10">
+            The Natural Killer cell, another immune cell, can recognise and
+            destroy cells lacking MHC on their surface, which can counterract the first strategy. However, this is not
+            the case for the others as tumours make themselves invisible to immune cells (2) and exploit the natural
+            regulation of
+            immune cells (3). Ultimately, this lets tumours evade destruction and continue growing uncontrollably.
         </p>
-
-
     </div>
+
+    <div class="w-full h-screen bg-[url(/images/spreading_melanoma.png)] bg-cover bg-right p-32 ">
+        <h2 class="text-5xl text-ocean-700 font-sans font-bold text-left"> Sometimes our immune <br> system
+            is not
+            enough <br> to
+            stop cancer.</h2>
+        <p class="mt-4"> But we can reduce the risk. </p>
+    </div>
+
+    <div class="p-32">
+        <h2 class="text-5xl text-ocean-700 font-sans font-bold text-center">
+            Who should use sun protection?
+        </h2>
+        <p class="mt-6 columns-2 gap-10"> Individuals with fair skin, high sun sensitivity, freckles, light eyes, and
+            red or
+            light hair
+            have an increased risk of developing melanoma (Nicholson et al., 2025). However, if you don’t have any of
+            these features, that does not mean you are immune to the effects of the sun. <strong>Everyone is susceptible
+                to sun
+                damage</strong>. Whilst individuals with darker skin tones may not be diagnosed with melanoma as often,
+            when they are
+            diagnosed, it is usually in a later stage of the disease. This means that people of colour are 4 times more
+            likely to be diagnosed with advanced melanoma and 1.5 times more likely to die from the disease (Melanoma
+            Research Alliance, 2026).
+            <br>
+            <strong>UV damage can appear in ways other than skin
+                cancer as well</strong>. Unprotected sun exposure can lead to premature skin aging (photoaging)
+            (Cleveland Clinic,
+            2022).
+            This may lead to uneven skin colour or texture, lines and wrinkles, pigment changes such as dark or light
+            spots and more.
+        </p>
+    </div>
+
+    <div class="p-32 bg-sand-50">
+        <h2 class="text-5xl text-ocean-700 font-sans font-bold text-right">
+            We can prevent sun damage in different ways.
+        </h2>
+        <p class="mt-6 text-right text-2xl">
+            In order to enjoy the outdoors in summer, it’s important that we protect our skin appropriately.
+            When the UV index is 3 or above, it is recommended to use various forms of sun protection (Cancer Council
+            Victoria, 2026).
+        </p>
+        <div class="mt-12 grid grid-cols-3 gap-10 text-sand-700 text-xl text-center">
+            <div
+                class="bg-sand-100 border border-sand-200 rounded-xl overflow-hidden col-span-2 grid grid-cols-2 gap-10">
+                <img src="./images/sunscreen.png" alt="somone applying sunscreen to their face">
+                <div class="m-10 ml-0">
+                    <h3 class="text-2xl font-bold"> Sunscreen </h3>
+                    <p class="p-2">
+                        In Australia, over 1700 cases of Melanoma have been prevented in the last decade through
+                        consistent sunscreen use (Cancer Council Australia, 2026). Sunscreens work by absorbing or
+                        reflecting UV radiation, blocking it from reaching the skin. They are labelled based on their
+                        sun protection factor (SPF), which describes their ability to block ultraviolet B (UVB) rays.
+                        Opt for SPF50+ for the best protection.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-sand-100 border border-sand-200 rounded-xl overflow-hidden">
+                <img src="./images/sun clothes.png"
+                    alt="two women wearing longsleeve sun protective tops while cycling on a road">
+                <div class="m-8">
+                    <h3 class="text-2xl font-bold"> Clothing </h3>
+                    <p class="p-2">
+                        Create a physical barrier between the sun and your skin through clothes.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-sand-100 border border-sand-200 rounded-xl overflow-hidden">
+                <img src="./images/sun hat.png"
+                    alt="woman looking at the camera wearing a yellow wide brim hat at the beach">
+                <div class="m-8">
+                    <h3 class="text-2xl font-bold"> Hat </h3>
+                    <p class="p-2">
+                        Protection for your skin and eyes. The wider the brim the better.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-sand-100 border border-sand-200 rounded-xl overflow-hidden">
+                <img src="./images/shade.png"
+                    alt="a man sitting on a beach chair under an umbrella while looking out at the ocean">
+                <div class="m-8">
+                    <h3 class="text-2xl font-bold"> Shade </h3>
+                    <p class="p-2">
+                        Find breaks from direct sunlight under trees, an umbrella or other shady areas.
+                    </p>
+                </div>
+            </div>
+            <div class="bg-sand-100 border border-sand-200 rounded-xl overflow-hidden">
+                <img src="./images/sunglasses.png" alt="toddler wearing green sunglasses and a hat at the beach">
+                <div class="m-8">
+                    <h3 class="text-2xl font-bold"> Sunglasses </h3>
+                    <p class="p-2">
+                        UV exposure can be incredibly harmful to your eyes, so protect them with a pair of sunglasses.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="mt-10 text-left text-2xl bg-ocean-50 border border-ocean-100 p-6 rounded-xl text-bone-500">
+            Additionally, there are alternatives for getting a tanned appearance that don’t require harmful sun
+            exposure. On the market there are many commercially available fake tans which colour the outer layer of
+            skin, giving that tanned appearance (Venosa, 2017).
+        </p>
+    </div>
+
+    <div class="p-32 px-44 bg-ocean-700 text-ocean-100 text-3xl font-sans text-center">
+        <p>
+            Next time you consider leaving the
+            house
+            in summer without sun protection, think
+            about what you’re really
+            risking.
+        </p>
+        <h2 class="mt-10 text-5xl font-bold text-center">
+            A sun tan will fade, but skin cancer won’t.
+        </h2>
+    </div>
+    <footer class="bg-ocean-800 text-denim-500 p-32 grid grid-cols-3 gap-0 text-center">
+        <p class="px-16 text-right"><strong> BUIILT BY </strong> <br> Sammy Matthews <br> ID: 36157465</p>
+        <p class="border-l border-r px-16">Coded from scratch using Tailwind CSS 4.0 for IMM2022 A2 project (14/10/26)</p>
+        <p class="px-16 text-left"><strong> USEFUL LINKS </strong> <br> <a href="">References</a> <br> back to the top
+        </p>
+    </footer>
+
+
 
 
 </body>
