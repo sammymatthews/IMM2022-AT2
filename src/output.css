@@ -509,6 +509,12 @@
   .bg-white {
     background-color: var(--color-white);
   }
+  .bg-\[url\(\.\/images\/fabio-fistarol-C3R9sJLrcY4-unsplash\.jpg\)\] {
+    background-image: url(./images/fabio-fistarol-C3R9sJLrcY4-unsplash.jpg);
+  }
+  .bg-\[url\(\.\/images\/spreading_melanoma\.png\)\] {
+    background-image: url(./images/spreading_melanoma.png);
+  }
   .bg-\[url\(\/images\/fabio-fistarol-C3R9sJLrcY4-unsplash\.jpg\)\] {
     background-image: url(/images/fabio-fistarol-C3R9sJLrcY4-unsplash.jpg);
   }
