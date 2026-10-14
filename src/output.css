@@ -386,6 +386,12 @@
   .w-10 {
     width: calc(var(--spacing) * 10);
   }
+  .w-\[16\.5cm\] {
+    width: 16.5cm;
+  }
+  .w-\[18cm\] {
+    width: 18cm;
+  }
   .w-full {
     width: 100%;
   }
@@ -413,6 +419,9 @@
   .justify-center {
     justify-content: center;
   }
+  .justify-items-center {
+    justify-items: center;
+  }
   .gap-0 {
     gap: 0px;
   }
@@ -427,6 +436,9 @@
   }
   .gap-16 {
     gap: calc(var(--spacing) * 16);
+  }
+  .self-center {
+    align-self: center;
   }
   .self-end {
     align-self: flex-end;
